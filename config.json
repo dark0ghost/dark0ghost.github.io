@@ -1,12 +1,12 @@
 [
  {
   "username": "dark0ghost",
-  "name": "dark0ghost",
+  "name": null,
   "userimg": "https://avatars.githubusercontent.com/u/40036029?v=4",
-  "sort": "created",
-  "order": "asc",
-  "includeFork": true,
-  "theme": "light.css",
+  "sort": "star",
+  "order": "desc",
+  "includeFork": false,
+  "theme": "dark.css",
   "types": [
    "all"
   ]
