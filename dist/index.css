@@ -112,16 +112,14 @@ body {
 
 #blog-display {
   width: 60vw;
-  margin: 0px 20vw;
   text-align: left;
-  margin-top: 3vh;
+  margin: 3vh 20vw 0px;
   z-index: 1;
 }
 
 #profile_blog {
   width: 60vw;
-  margin: 0px 20vw;
-  margin-top: 34vh;
+  margin: 34vh 20vw 0;
   text-align: left;
   z-index: 1;
 }
