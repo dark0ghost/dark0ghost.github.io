@@ -1,0 +1,25 @@
+name: Gitfolio Updater
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ master ]
+  schedule:
+    - cron: '24 10 * * 6'
+
+jobs:
+  Scan-Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: install npm
+        run: apt-get install -y npm
+
+      - name: install gitfolio
+        run:  npm i gitfolio -g
+
+      - name: update info
+        run: gitfolio update
+
